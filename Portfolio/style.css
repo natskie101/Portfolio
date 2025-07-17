@@ -1,0 +1,43 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+ }
+
+ body {
+    line-height: 1.6;
+    background: #e3d5d5;
+ }
+
+ nav{
+    background: #808090;
+    color: white;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+ }
+
+ nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+ nav ul li {
+    margin: 0 15px;
+ }
+
+ nav ul li {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3
+ }
+
+ nav ul li a:hover {
+    color: red;
+ }
