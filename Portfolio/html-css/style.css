@@ -9,6 +9,7 @@
  body {
     line-height: 1.6;
     background: #e3d5d5;
+    
  }
 
  nav{
@@ -19,7 +20,7 @@
     top: 0%;
     z-index: 1000;
  }
-
++
  nav ul {
     display: flex;
     list-style: none;
@@ -32,12 +33,17 @@
  }
 
  nav ul li {
-    color: rgb(0, 0, 0);
+    color: rgb(95, 63, 63);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3
  }
 
  nav ul li a:hover {
-    color: red;
+    color: black;
+ }
+
+ footer {
+   background: #808090;
+
  }

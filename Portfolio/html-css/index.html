@@ -9,19 +9,29 @@
 </head>
 <body>
     <nav>
-        <table width ="100%" border ="0" cellspacing ="10" cellpadding ="5">
-            
-    <td><strong><h1 size="50">My Portfolio</h1></strong></td>
-    <tr>
-        <td align="right">
-            <a href="#home">home</a> |
-            <a href="#about">about</a> |
-            <a href="#projects">projects</a> |
-            <a href="#contacts">contacts</a>
-        </td>
-    </tr>
-    </table>
-    <hr>
+      <div>
+        <ul>
+            <li><a href="#home">home</a>  </li>
+            <li><a href="#about">about</a>  </li>
+            <li><a href="#projects">projects</a>  </li>
+            <li><a href="#contacts">contacts</a> </li>
+        </ul>
+        </div>
+
+        <div class = "container">
+          <div class = "hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <script>
+    const hamburger = document.querySelector('hamburger');
+    const navLinks = document.querySelector ('nav-links')
+</script>
+
+
     </nav>
     
     <section id="home">
@@ -129,5 +139,7 @@ I believe that education is not just about grades but also about experiences, co
 </footer>
 
     </section>
+
+    <script src = "dom.js" ></script>
 </body>
 </html>
