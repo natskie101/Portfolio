@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="title">My Portfolio</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact-form.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/language-selector.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/responsive-design.css">
+    <link rel="stylesheet" href="css/skills.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <!-- Hamburger menu (left side) -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <!-- Navigation links (center) -->
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" data-lang-key="home">Home</a></li>
+                    <li><a href="#about" data-lang-key="about">About Me</a></li>
+                    <li><a href="#skills" data-lang-key="skills">Skills</a></li>
+                    <li><a href="#projects" data-lang-key="projects">Projects</a></li>
+                    <li><a href="#contact" data-lang-key="contact">Contact</a></li>
+                </ul>
+
+                <!-- Right side elements -->
+                <div class="navbar-right">
+                    <!-- Language selector (far right) -->
+                    <div class="language-selector">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="fil">FIL</button>
+                    </div>
+
+                    <button id="theme-toggle" class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-lang-key="heroTitle">Hi, I'm <span>Carlos Nath</span></h1>
+                <p data-lang-key="heroSubtitle">A BSIT student</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="aboutTitle">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="image/nats.jpg" alt="Profile Image"> 
+                </div>
+
+                <div class="about-text">
+                    <h3 data-lang-key="aboutHeading">Who am I?</h3>
+                    <p data-lang-key="aboutText1">I'm a dedicated BSIT student with a strong passion for web development. Over the past few years, I've been actively learning and building modern, responsive websites and web applications. While I focus mainly on front-end development, I also have hands-on experience with back-end technologies. I'm continuously improving my skills and staying updated with the latest trends in web development to prepare for a successful career in the tech industry.</p>
+                    <p data-lang-key="aboutText2">My journey in web development started when I was in 3rd year college, and since then I've worked with various projects for educational purposes.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span data-lang-key="nameLabel">Name:</span>
+                            <p>Carlos Nath</p>
+                        </div>
+                        <div class="info-item">
+                            <span data-lang-key="emailLabel">Email:</span>
+                            <p>carlosnath991@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="skillsTitle">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p></p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p></p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p></p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-cuttlefish"></i><strong style="color: black;">++</strong>
+                    <h3>C++</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="projectsTitle">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="image/web.jpg" alt="Project 1">
+                    <h3 data-lang-key="project1Title" style="color: black;">Web Page</h3>
+                    <p data-lang-key="project1Desc" style="color: black;">A responsive website built with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <img src="image/unit.jpg" alt="Project 2">
+                    <h3 data-lang-key="project2Title" style="color: black;">C++ Unit Converter</h3>
+                    <p data-lang-key="project2Desc" style="color: black;">A comprehensive C++ unit converter program that handles length, weight, temperature, and volume conversions with a user-friendly menu interface.
+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title" data-lang-key="contactTitle">Contact Me</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" data-lang-key="namePlaceholder" 
+                           maxlength="50" required>
+                    <div class="char-counter"><span class="current">0</span>/<span class="max">50</span></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" data-lang-key="emailPlaceholder" 
+                           maxlength="50" required>
+                    <div class="char-counter"><span class="current">0</span>/<span class="max">100</span></div>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" data-lang-key="messagePlaceholder" 
+                              maxlength="150" required></textarea>
+                    <div class="char-counter"><span class="current">0</span>/<span class="max">500</span></div>
+                </div>
+                <button type="submit" class="btn" data-lang-key="submitButton">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p data-lang-key="copyright">&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="javascript/char-limit.js"></script>
+    <script src="javascript/darkmode.js"></script>
+    <script src="javascript/form-persistence.js"></script>
+    <script src="javascript/language-selector.js"></script>
+    <script src="javascript/togglebar.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.language-selector {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    background: var(--light);
+    height: 30px; /* Fixed height for better alignment */
+    align-items: center; /* Vertically center the buttons */
+}
+
+.lang-btn {
+    padding: 0 15px; /* Adjusted padding for better proportions */
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--dark);
+    transition: all 0.3s ease;
+    height: 100%; /* Make buttons fill the container */
+    display: flex;
+    align-items: center; /* Center text vertically */
+}
+
+.lang-btn.active {
+    background: var(--primary);
+    color: white;
+}
